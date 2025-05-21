@@ -235,3 +235,4 @@ btn_remove_selection.pack()
 
 # Launch the graphical interface
 root.mainloop()
+

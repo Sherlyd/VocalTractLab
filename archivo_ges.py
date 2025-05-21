@@ -6,6 +6,7 @@ non_standard_libs = []
 def install_and_import(library):
     """
     Verifica si una biblioteca externa está instalada; la instala si no lo está.
+    Checks if an external library is installed; installs it if it is not.
     """
     try:
         __import__(library)
